@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+
+#container
+{
+    background-color: white; 
+    width: 50%;
+    margin-top: 20px;
+    padding:20px;
+    /* box model */
+    color: black;
+    margin: auto;
+}
+
+.left-col
+{
+    float: left;
+    
+    
+}
+
+.right-col
+{
+    float: right;
+    
+}
+
+.clearFix
+{
+    clear: both;
+}
+
+h1{
+    color: #A64AC9;
+}
+
+#purpleNurple
+{
+    color:#A64AC9;
+    text-decoration: none;
+    border: 3px solid #A64AC9;
+    padding: 10px;
+    border-radius: 7px;
+    display: inline-block;
+}
+
+.purple
+{
+    color: #A64AC9;
+}
