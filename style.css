@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    font-family: 'Asap', sans-serif;
 }
 
 #container
@@ -8,7 +9,7 @@ body{
     width: 50%;
     margin-top: 20px;
     padding:20px;
-    /* box model */
+    /* box model consist of content, which is in the middle of the box. The border which is the frame for the content. The margin, it's like an invisible border outside the border. And Padding which surrounds the contents itself. */
     color: black;
     margin: auto;
 }
@@ -16,6 +17,7 @@ body{
 .left-col
 {
     float: left;
+    width: 50%;
     
     
 }
@@ -23,6 +25,7 @@ body{
 .right-col
 {
     float: right;
+    width: 48%;
     
 }
 
@@ -43,6 +46,14 @@ h1{
     padding: 10px;
     border-radius: 7px;
     display: inline-block;
+    padding-top: 12px;
+}
+
+.image
+{
+    width:300px;
+    height: auto;
+
 }
 
 .purple
